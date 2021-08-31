@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://matchfamousidols.netlify.app/sitemap.xml
