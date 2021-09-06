@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #ffbb00;
+  background-color: white;
 }
 
 .file-upload {
@@ -152,7 +152,7 @@ body {
 }
 
 .title{
-  font-family: 'HSYuji-Regular';
+  font-family: 'Cafe24Ssurround';
   line-height: 1.67;
   text-align: center;
   color: #35465d;
@@ -161,7 +161,7 @@ body {
 	
 .subtitle{
 	
-  font-family: 'HSYuji-Regular';
+  font-family: 'Cafe24Ssurround';
   line-height: 1.53;
   text-align: center;
   color: #35465d;
@@ -248,4 +248,50 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+
+.nail{
+
+	width:150px;
+	height:150px;
+}
+
+.language{
+	
+	padding:15px;
+	text-align:center;
+	
+}
+
+.language-button{
+	
+  height:20px;
+  width:70px;
+  border: none;
+  border-radius: 20px;
+  background: #F7E7E0;
+  font-family: 'Cafe24Ssurround';
+  text-align:center;
+  color: #35465d;
+  
+}
+
+
+.sex{
+	text-align:center;
+	padding:10px;
+	
+}
+
+.sex-button{
+	font-family: 'Cafe24Ssurround';
+	 border: none;
+  border-radius: 20px;
+  background: #F1DEB2;
+}

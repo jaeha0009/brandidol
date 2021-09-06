@@ -132,8 +132,8 @@
 			사용된 사진은 다른곳에 저장되지 않습니다!
 		</h6>
 		<div class="sex">
-			<button type="button" class="sex-button" onclick="location.href='boyidol.html'">
-				"남자" 아이돌로 테스트하기
+			<button type="button" class="sex-button" onclick="location.href='index.html'">
+				"여자" 아이돌로 테스트하기
 			</button>
 		</div>
 		<!-- <section class="youtube">
@@ -206,20 +206,20 @@
 		<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 		<div id="ranking" style="text-align: center; padding-top: 20px;">
 			<h3 class="subtitle">
-				21년 08월 여자아이돌(개인) 브랜드 평판 순위
+				21년 08월 남자아이돌(개인) 브랜드 평판 순위
 			</h3>
 			<h5 class="subtitle">
-				1위 블랙핑크 제니
-				<br />2위 블랙핑크 지수 <br />3위 레드벨벳 조이 <br />4위 에스파 카리나 <br />5위
-				레드벨벳 아이린 <br />6위 에스파 윈터 <br />7위 레드벨벳 웬디 <br />8위 소녀시대
-				태연 <br />9위 소녀시대 윤아 <br />10위 마마무 솔라 <br />11위 에스파 지젤
-				<br />12위 블랙핑크 로제 <br />13위 레드벨벳 예리 <br />14위 오마이걸 아린
-				<br />15위 브레이브걸스 유정 <br />16위 트와이스 나연 <br />17위 레드벨벳 슬기
-				<br />18위 트와이스 정연 <br />19위 소녀시대 수영 <br />20위 에이핑크 손나은
-				<br />21위 트와이스 미나 <br />22위 소녀시대 효연 <br />23위 소녀시대 유리
-				<br />24위 이달의 소녀 츄 <br />25위 에스파 닝닝 <br />26위 브레이브걸스 유나
-				<br />27위 걸스데이 혜리 <br />28위 소녀시대 서현 <br />29위 오마이걸 유아
-				<br />30위 마마무 화사
+				1위 방탄소년단 지민
+				<br />2위 아스트로 차은우 <br />3위 방탄소년단 진 <br />4위 방탄소년단 뷔 <br />5위
+				방탄소년단 정국 <br />6위 방탄소년단 슈가 <br />7위 방탄소년단 RM <br />8위 빅뱅 지드래곤
+				<br />9위 슈퍼주니어 희철 <br />10위 2PM 준호 <br />11위 방탄소년단 제이홉
+				<br />12위 샤이니 키 <br />13위 위너 강승윤 <br />14위 샤이니 종현
+				<br />15위 위너 송민호 <br />16위 NCT 정우 <br />17위 엑소 디오
+				<br />18위 NCT 재현 <br />19위 더보이즈 현재 <br />20위 갓세븐 진영
+				<br />21위 더보이즈 주연 <br />22위 샤이니 온유 <br />23위 하이라이트 윤두준
+				<br />24위 NCT 마크 <br />25위 NCT 도영 <br />26위 동방신기 최강창민
+				<br />27위 NCT 태용 <br />28위 하이라이트 양요섭 <br />29위 엑소 카이
+				<br />30위 몬스타엑스 민혁
 			</h5>
 		</div>
 		<ins
@@ -323,7 +323,7 @@
 				// More API functions here:
 				// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 				// the link to your model provided by Teachable Machine export panel
-				const URL = 'https://teachablemachine.withgoogle.com/models/lxgjpE4_v/';
+				const URL = 'https://teachablemachine.withgoogle.com/models/w6V7dWrjA/';
 				let model, webcam, labelContainer, maxPredictions;
 				// Load the image model and setup the webcam
 				async function init() {
@@ -400,125 +400,125 @@
 					console.log(aarray2);
 					console.log(prediction[0].probability.toFixed(2) * 100 + '%');
 					switch (prediction[0].className) {
-						case '블랙핑크 제니':
+						case '방탄소년단 지민':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 1위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>블랙핑크 제니</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 지민</dev>';
 							break;
-						case '블랙핑크 지수':
+						case '아스트로 차은우':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 2위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>블랙핑크 지수</dev>';
+							resultMassage1 = '<dev class="ss2"><br>아스트로 차은우</dev>';
 							break;
-						case '레드벨벳 조이':
+						case '방탄소년단 진':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 3위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>레드벨벳 조이</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 진</dev>';
 							break;
-						case '에스파 카리나':
+						case '방탄소년단 뷔':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 4위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>에스파 카리나</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 뷔</dev>';
 							break;
-						case '레드벨벳 아이린':
+						case '방탄소년단 정국':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 5위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>레드벨벳 아이린</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 정국</dev>';
 							break;
-						case '에스파 윈터':
+						case '방탄소년단 슈가':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 6위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>에스파 윈터</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 슈가</dev>';
 							break;
-						case '레드벨벳 웬디':
+						case '방탄소년단 RM':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 7위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>래드벨벳 웬디</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 RM</dev>';
 							break;
-						case '소녀시대 태연':
+						case '빅뱅 지드래곤':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 8위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>소녀시대 태연</dev>';
+							resultMassage1 = '<dev class="ss2"><br>빅뱅 지드래곤</dev>';
 							break;
-						case '소녀시대 윤아':
+						case '슈퍼주니어 희철':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 9위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>소녀시대 윤아</dev>';
+							resultMassage1 = '<dev class="ss2"><br>슈퍼주니어 희철</dev>';
 							break;
-						case '마마무 솔라':
+						case '2PM 준호':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 10위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>마마무 솔라</dev>';
+							resultMassage1 = '<dev class="ss2"><br>2PM 준호</dev>';
 							break;
-						case '에스파 지젤':
+						case '방탄소년단 제이홉':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 11위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>에스파 지젤</dev>';
+							resultMassage1 = '<dev class="ss2"><br>방탄소년단 제이홉</dev>';
 							break;
-						case '블랙핑크 로제':
+						case '샤이니 키':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 12위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>블랙핑크 로제</dev>';
+							resultMassage1 = '<dev class="ss2"><br>샤이니 키</dev>';
 							break;
-						case '레드벨벳 예리':
+						case '위너 강승윤':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 13위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>레드벨벳 예리</dev>';
+							resultMassage1 = '<dev class="ss2"><br>위너 강승윤</dev>';
 							break;
-						case '오마이걸 아린':
+						case '샤이니 종현':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 14위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>오마이걸 아린</dev>';
+							resultMassage1 = '<dev class="ss2"><br>샤이니 종현</dev>';
 							break;
-						case '브레이브걸스 유정':
+						case '위너 송민호':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 15위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>브레이브걸스 유정</dev>';
+							resultMassage1 = '<dev class="ss2"><br>위너 송민호</dev>';
 							break;
-						case '트와이스 나연':
+						case 'NCT 정우':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 16위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>트와이스 나연</dev>';
+							resultMassage1 = '<dev class="ss2"><br>NCT 정우</dev>';
 							break;
-						case '레드벨벳 슬기':
+						case '엑소 디오':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 17위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>레드벨벳 슬기</dev>';
+							resultMassage1 = '<dev class="ss2"><br>엑소 디오</dev>';
 							break;
-						case '트와이스 정연':
+						case 'NCT 재현':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 18위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>트와이스 정연</dev>';
+							resultMassage1 = '<dev class="ss2"><br>NCT 재현</dev>';
 							break;
-						case '소녀시대 수영':
+						case '더보이즈 현재':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 19위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>소녀시대 수영</dev>';
+							resultMassage1 = '<dev class="ss2"><br>더보이즈 현재</dev>';
 							break;
-						case '에이핑크 손나은':
+						case '갓세븐 진영':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 20위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>에이핑크 손나은</dev>';
+							resultMassage1 = '<dev class="ss2"><br>갓세븐 진영</dev>';
 							break;
-						case '트와이스 미나':
+						case '더보이즈 주연':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 21위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>트와이스 미나</dev>';
+							resultMassage1 = '<dev class="ss2"><br>더보이즈 주연</dev>';
 							break;
-						case '소녀시대 효연':
+						case '샤이니 온유':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 22위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>소녀시대 효연</dev>';
+							resultMassage1 = '<dev class="ss2"><br>샤이니 온유</dev>';
 							break;
-						case '소녀시대 유리':
+						case '하이라이트 윤두준':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 23위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>소녀시대 유리</dev>';
+							resultMassage1 = '<dev class="ss2"><br>하이라이트 윤두준</dev>';
 							break;
-						case '이달의소녀 츄':
+						case 'NCT 마크':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 24위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>이달의소녀 츄</dev>';
+							resultMassage1 = '<dev class="ss2"><br>NCT 마크</dev>';
 							break;
-						case '에스파 닝닝':
+						case 'NCT 도영':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 25위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>에스파 닝닝</dev>';
+							resultMassage1 = '<dev class="ss2"><br>NCT 도영</dev>';
 							break;
-						case '브레이브걸스 유나':
+						case '동방신기 최강창민':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 26위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>브레이브걸스 유나</dev>';
+							resultMassage1 = '<dev class="ss2"><br>동방신기 최강창민</dev>';
 							break;
-						case '걸스데이 혜리':
+						case 'NCT 태용':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 27위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>걸스데이 혜리</dev>';
+							resultMassage1 = '<dev class="ss2"><br>NCT 태용</dev>';
 							break;
-						case '소녀시대 서현':
+						case '하이라이트 양요섭':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 28위</dev>';
 							resultMassage1 = '<dev class="ss2"><br>소녀시대 서현</dev>';
 							break;
-						case '오마이걸 유아':
+						case '엑소 카이':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 29위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>오마이걸 유아</dev>';
+							resultMassage1 = '<dev class="ss2"><br>엑소 카이</dev>';
 							break;
-						case '마마무 화사':
+						case '몬스타엑스 민혁':
 							resultMassage = '<dev class="ss">브랜드 평가 개인 30위</dev>';
-							resultMassage1 = '<dev class="ss2"><br>마마무 화사</dev>';
+							resultMassage1 = '<dev class="ss2"><br>몬스타엑스 민혁</dev>';
 							break;
 						default:
 						// code block
